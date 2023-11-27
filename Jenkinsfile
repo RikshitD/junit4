@@ -29,10 +29,5 @@ pipeline {
                 bat 'mvn verify'
             }
         }
-        stage("Install") {
-            steps {
-                bat 'mvn install'
-            }
-        }
     }
 }
